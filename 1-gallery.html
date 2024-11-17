@@ -3,9 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
+  <title>Page 2</title>
+  <script type="module" crossorigin src="/vanilla-app-template/1-gallery.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-CgTBfC_f.js">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DkczhqSJ.css">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/1-gallery-C_Ttdrpa.css">
   <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
 </head>
 
@@ -20,7 +25,7 @@
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./1-gallery.html">Gallery</a>
+          <a class="nav-link active" href="./1-gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {=$highlight-curr}" href="./2-form.html">Form</a>
@@ -31,26 +36,12 @@
 </header>
 
   <main>
+    <div class="container">
+      <ul class="gallery"></ul>
+      <a class="back-link" href="./index.html">Go back</a>
 
+    </div>
   </main>
-
-  <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
-
 
 </body>
 
